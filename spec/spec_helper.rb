@@ -1,6 +1,7 @@
 require 'capybara/rspec'
 require 'capybara/dsl'
 require 'selenium-webdriver'
+require 'securerandom'
 
 RSpec.configure do |config|
   def options
